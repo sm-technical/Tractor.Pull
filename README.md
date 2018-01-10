@@ -7,9 +7,8 @@ NOTES:
 	- You will need at least Microsoft SQL Server Express (64-bit) (Version 13.0.4001 is what we used)
 
 	
-/************/
-/* Scenario */
-/************/
+
+* Scenario
 
 We've had a contract for a tractor pulling contest. Competing the best of the best tractors against one another in a challenge to see who can pull the other over the line.
 
@@ -29,10 +28,7 @@ Before you start, you'll need:
 	- Microsoft SQL Server. You'll find the database scripts, and backup file attached.
 	- Restore the Nuget packages in order to run the application
 
-	
-/****************/
-/* Instructions */
-/****************/
+* Instructions
 
 1. It seems like on of our developers has created a bug when viewing the owners of our tractor pull in "~\Views\Tractor\Index.cshtml", can you find and fix the error? 
 	- You wont be able to run the project without correcting this first
@@ -60,11 +56,10 @@ Once finished. If you could zip the files up and return to ourselves ensuring th
 
 You'll also need to include a backup file of the SQL database that you've modified.
 
-		
-/**************/
-/* References */
-/**************/
+* References
 
 Entity Framework:	https://msdn.microsoft.com/en-us/library/aa937723(v=vs.113).aspx
+
 ASP.NET MVC:		https://www.asp.net/mvc
-AutoMapper:			http://automapper.org/
+
+AutoMapper:		http://automapper.org/
